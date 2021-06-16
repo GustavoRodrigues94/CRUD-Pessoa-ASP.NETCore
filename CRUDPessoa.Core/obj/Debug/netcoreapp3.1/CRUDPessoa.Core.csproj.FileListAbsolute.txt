@@ -1,0 +1,9 @@
+C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Core\bin\Debug\netcoreapp3.1\CRUDPessoa.Core.deps.json
+C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Core\bin\Debug\netcoreapp3.1\CRUDPessoa.Core.dll
+C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Core\bin\Debug\netcoreapp3.1\CRUDPessoa.Core.pdb
+C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Core\obj\Debug\netcoreapp3.1\CRUDPessoa.Core.csprojAssemblyReference.cache
+C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Core\obj\Debug\netcoreapp3.1\CRUDPessoa.Core.AssemblyInfoInputs.cache
+C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Core\obj\Debug\netcoreapp3.1\CRUDPessoa.Core.AssemblyInfo.cs
+C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Core\obj\Debug\netcoreapp3.1\CRUDPessoa.Core.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Core\obj\Debug\netcoreapp3.1\CRUDPessoa.Core.dll
+C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Core\obj\Debug\netcoreapp3.1\CRUDPessoa.Core.pdb
