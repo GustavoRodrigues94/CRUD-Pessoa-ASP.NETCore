@@ -1,13 +1,13 @@
-C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Cadastros.Aplicacao\bin\Debug\netcoreapp3.1\CRUDPessoa.Core.dll
-C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Cadastros.Aplicacao\obj\Debug\netcoreapp3.1\CRUDPessoa.Cadastros.Aplicacao.csprojAssemblyReference.cache
-C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Cadastros.Aplicacao\obj\Debug\netcoreapp3.1\CRUDPessoa.Cadastros.Aplicacao.AssemblyInfoInputs.cache
-C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Cadastros.Aplicacao\obj\Debug\netcoreapp3.1\CRUDPessoa.Cadastros.Aplicacao.AssemblyInfo.cs
 C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Cadastros.Aplicacao\bin\Debug\netcoreapp3.1\CRUDPessoa.Cadastros.Aplicacao.deps.json
 C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Cadastros.Aplicacao\bin\Debug\netcoreapp3.1\CRUDPessoa.Cadastros.Aplicacao.dll
 C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Cadastros.Aplicacao\bin\Debug\netcoreapp3.1\CRUDPessoa.Cadastros.Aplicacao.pdb
 C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Cadastros.Aplicacao\bin\Debug\netcoreapp3.1\CRUDPessoa.Cadastros.Dominio.dll
+C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Cadastros.Aplicacao\bin\Debug\netcoreapp3.1\CRUDPessoa.Core.dll
 C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Cadastros.Aplicacao\bin\Debug\netcoreapp3.1\CRUDPessoa.Cadastros.Dominio.pdb
 C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Cadastros.Aplicacao\bin\Debug\netcoreapp3.1\CRUDPessoa.Core.pdb
+C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Cadastros.Aplicacao\obj\Debug\netcoreapp3.1\CRUDPessoa.Cadastros.Aplicacao.csprojAssemblyReference.cache
+C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Cadastros.Aplicacao\obj\Debug\netcoreapp3.1\CRUDPessoa.Cadastros.Aplicacao.AssemblyInfoInputs.cache
+C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Cadastros.Aplicacao\obj\Debug\netcoreapp3.1\CRUDPessoa.Cadastros.Aplicacao.AssemblyInfo.cs
 C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Cadastros.Aplicacao\obj\Debug\netcoreapp3.1\CRUDPessoa.Cadastros.Aplicacao.csproj.CoreCompileInputs.cache
 C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Cadastros.Aplicacao\obj\Debug\netcoreapp3.1\CRUDPessoa.Cadastros.Aplicacao.csproj.CopyComplete
 C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa.Cadastros.Aplicacao\obj\Debug\netcoreapp3.1\CRUDPessoa.Cadastros.Aplicacao.dll

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDPessoa", "CRUDPessoa\CRUDPessoa.csproj", "{0E414617-21A8-4587-8A10-D3230309CEED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDPessoa", "CRUDPessoa\CRUDPessoa.csproj", "{0E414617-21A8-4587-8A10-D3230309CEED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{A5AB3CE9-E427-477F-BF4E-59D755D05271}"
 EndProject
@@ -13,13 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cadastros", "Cadastros", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F965099B-ED10-4EC7-8E81-AB5511B4463C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDPessoa.Cadastros.Aplicacao", "CRUDPessoa.Cadastros.Aplicacao\CRUDPessoa.Cadastros.Aplicacao.csproj", "{D8CB849B-2673-4B7A-8360-10B0390974CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDPessoa.Cadastros.Aplicacao", "CRUDPessoa.Cadastros.Aplicacao\CRUDPessoa.Cadastros.Aplicacao.csproj", "{D8CB849B-2673-4B7A-8360-10B0390974CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDPessoa.Cadastros.Dominio", "CRUDPessoa.Cadastros.Dominio\CRUDPessoa.Cadastros.Dominio.csproj", "{CE6D470A-B868-4FDF-910E-5E23E6E94914}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDPessoa.Cadastros.Dominio", "CRUDPessoa.Cadastros.Dominio\CRUDPessoa.Cadastros.Dominio.csproj", "{CE6D470A-B868-4FDF-910E-5E23E6E94914}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDPessoa.Cadastros.Infra", "CRUDPessoa.Cadastros.Infra\CRUDPessoa.Cadastros.Infra.csproj", "{4729A5C5-267F-4FF4-B92C-6B6A3472B089}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDPessoa.Cadastros.Infra", "CRUDPessoa.Cadastros.Infra\CRUDPessoa.Cadastros.Infra.csproj", "{4729A5C5-267F-4FF4-B92C-6B6A3472B089}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDPessoa.Core", "CRUDPessoa.Core\CRUDPessoa.Core.csproj", "{7B097F21-795E-4BCD-8720-68FF9F0625BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDPessoa.Core", "CRUDPessoa.Core\CRUDPessoa.Core.csproj", "{7B097F21-795E-4BCD-8720-68FF9F0625BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
