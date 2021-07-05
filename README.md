@@ -5,7 +5,7 @@
 [-> Ir para o Front-end](https://github.com/GustavoRodrigues94/CRUD-Pessoa-Angular)
 
 # CRUD-Pessoa-ASP.NETCore
-CRUD de pessoa (Jurídica e Física), utilizando DDD + CQRS + Bounded Context
+CRUD de pessoa (Jurídica e Física), utilizando DDD + CQRS + Events + Bounded Context
 
 # Necessário rodar migration para funcionar
 Após carregar a solução no seu Visual Studio, vá no <strong>Console do Gerenciador de Pacotes</strong> e selecione como projeto padrão <strong>CRUDPessoa.Cadastros.Infra</strong>
