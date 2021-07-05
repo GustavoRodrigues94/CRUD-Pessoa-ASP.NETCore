@@ -4,18 +4,19 @@ using CRUDPessoa.Cadastros.Dominio.Entidades;
 using CRUDPessoa.Cadastros.Dominio.Entidades.ObjetosDeValor;
 using CRUDPessoa.Cadastros.Dominio.Repositorios;
 using CRUDPessoa.Core.Mensagens.Comandos;
+using CRUDPessoa.Core.Mensagens.EventosIntegracao;
 using Flunt.Notifications;
 
 namespace CRUDPessoa.Cadastros.Aplicacao.Manipuladores
 {
-    public class PessoaManipulador : Notifiable,
+    public class PessoaComandoManipulador : Notifiable,
         IManipulador<CriarPessoaComando>,
         IManipulador<AtualizarPessoaComando>,
         IManipulador<DeletarPessoaComando>
     {
         private readonly IPessoaRepositorio _pessoaRepositorio;
 
-        public PessoaManipulador(IPessoaRepositorio pessoaRepositorio) => _pessoaRepositorio = pessoaRepositorio;
+        public PessoaComandoManipulador(IPessoaRepositorio pessoaRepositorio) => _pessoaRepositorio = pessoaRepositorio;
 
         public async Task<IComandoResultado> Manipular(CriarPessoaComando comando)
         {
@@ -27,6 +28,8 @@ namespace CRUDPessoa.Cadastros.Aplicacao.Manipuladores
             var pessoa = new Pessoa(comando.Nome, comando.Email, new Documento(comando.NumeroDocumento));
 
             _pessoaRepositorio.Criar(pessoa);
+
+            pessoa.AdicionarEvento(new PessoaAdicionadaEvento(pessoa.Id, pessoa.Email));
 
             await _pessoaRepositorio.UnidadeDeTrabalho.Commit();
 

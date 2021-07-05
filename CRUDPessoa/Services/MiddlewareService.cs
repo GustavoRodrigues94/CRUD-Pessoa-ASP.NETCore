@@ -1,9 +1,10 @@
 ﻿using System;
-using System.Text;
 using CRUDPessoa.Cadastros.Aplicacao.Consultas;
 using CRUDPessoa.Cadastros.Aplicacao.Manipuladores;
 using CRUDPessoa.Cadastros.Dominio.Repositorios;
+using CRUDPessoa.Cadastros.Infra.Contextos;
 using CRUDPessoa.Cadastros.Infra.Repositorios;
+using CRUDPessoa.Core.Mensagens.Eventos;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 
@@ -27,8 +28,10 @@ namespace CRUDPessoa.Services
 
         public static void AdicionarInjecaoDependencia(IServiceCollection services)
         {
+            services.AddTransient<IMediatorManipulador, MediatorManipulador>();
+
             services.AddTransient<IPessoaRepositorio, PessoaRespositorio>();
-            services.AddTransient<PessoaManipulador, PessoaManipulador>();
+            services.AddTransient<PessoaComandoManipulador, PessoaComandoManipulador>();
             services.AddTransient<IPessoaConsultas, PessoaConsultas>();
         }
     }

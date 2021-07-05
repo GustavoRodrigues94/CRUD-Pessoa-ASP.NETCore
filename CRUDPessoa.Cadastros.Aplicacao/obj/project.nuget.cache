@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "GVPRaDX524Ny/WJ8Tj1bPTW6wDga0nCr34T6Bb+irk5+XSgQ5bOfKctQTPulpmZGiDCMaz0bTLlsZSlmpcAe1A==",
+  "dgSpecHash": "+ZPT9tQEGTmQMh4HnAXwou+9SQi7GTJAKqRRPKPnFgLuca+fjgb2+sYyACDyhOgRCsCkKt65/I8IIWtj4yCItg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gustavo\\source\\repos\\CRUDPessoa\\CRUDPessoa.Cadastros.Aplicacao\\CRUDPessoa.Cadastros.Aplicacao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gustavo\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512",
-    "C:\\Users\\Gustavo\\.nuget\\packages\\flunt.br\\1.4.1\\flunt.br.1.4.1.nupkg.sha512"
+    "C:\\Users\\Gustavo\\.nuget\\packages\\flunt.br\\1.4.1\\flunt.br.1.4.1.nupkg.sha512",
+    "C:\\Users\\Gustavo\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
   ],
   "logs": []
 }

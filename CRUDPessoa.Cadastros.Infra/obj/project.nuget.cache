@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "iB9NVwl2V5PmuggLK/LqU0WMKcPY+U0seGBvqOJnfdOCTJ2dc6bzGf/l2Y9WKAI30dmBmHpQD2fTTVWYDiJWuw==",
+  "dgSpecHash": "vfICY/CsiyOyyVZK/wqUaJJCGboxfB+IeUJqOFWmF/L/GwcJOXlrRhz8mJfGmB62UZenGyZQe6/yYDjka99q/A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gustavo\\source\\repos\\CRUDPessoa\\CRUDPessoa.Cadastros.Infra\\CRUDPessoa.Cadastros.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gustavo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Gustavo\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

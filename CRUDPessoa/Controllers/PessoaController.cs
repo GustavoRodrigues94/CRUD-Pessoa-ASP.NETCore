@@ -22,20 +22,20 @@ namespace CRUDPessoa.Controllers
         [HttpPost]
         public async Task<ActionResult<ComandoResultado>> CriarPessoa(
             [FromBody] CriarPessoaComando comando,
-            [FromServices] PessoaManipulador manipulador) =>
+            [FromServices] PessoaComandoManipulador manipulador) =>
             (ComandoResultado) await manipulador.Manipular(comando);
 
         [Route("{idPessoa}")]
         [HttpDelete]
         public async Task<ActionResult<ComandoResultado>> DeletarPessoa(
-            [FromServices] PessoaManipulador manipulador, Guid idPessoa) =>
+            [FromServices] PessoaComandoManipulador manipulador, Guid idPessoa) =>
             (ComandoResultado) await manipulador.Manipular(new DeletarPessoaComando(idPessoa));
 
         [Route("")]
         [HttpPut]
         public async Task<ActionResult<ComandoResultado>> AtualizarPessoa(
             [FromBody] AtualizarPessoaComando comando,
-            [FromServices] PessoaManipulador manipulador) =>
+            [FromServices] PessoaComandoManipulador manipulador) =>
             (ComandoResultado)await manipulador.Manipular(comando);
 
         [Route("")]

@@ -1,5 +1,6 @@
 using CRUDPessoa.Cadastros.Infra.Contextos;
 using CRUDPessoa.Services;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -21,6 +22,8 @@ namespace CRUDPessoa
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddMediatR(typeof(Startup));
+
             AdicionarMiddlewares(services);
 
             services.AddDbContext<CadastrosContexto>(opt =>
