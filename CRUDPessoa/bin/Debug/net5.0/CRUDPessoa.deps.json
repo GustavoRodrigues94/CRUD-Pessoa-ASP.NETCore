@@ -27,6 +27,7 @@
         "dependencies": {
           "CRUDPessoa.Cadastros.Aplicacao": "1.0.0",
           "CRUDPessoa.Cadastros.Infra": "1.0.0",
+          "CRUDPessoa.Email.Aplicacao": "1.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.7",
           "Microsoft.EntityFrameworkCore.Design": "5.0.7",
@@ -1463,6 +1464,17 @@
         },
         "compile": {
           "CRUDPessoa.Core.dll": {}
+        }
+      },
+      "CRUDPessoa.Email.Aplicacao/1.0.0": {
+        "dependencies": {
+          "CRUDPessoa.Core": "1.0.0"
+        },
+        "runtime": {
+          "CRUDPessoa.Email.Aplicacao.dll": {}
+        },
+        "compile": {
+          "CRUDPessoa.Email.Aplicacao.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3903,6 +3915,11 @@
       "sha512": ""
     },
     "CRUDPessoa.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CRUDPessoa.Email.Aplicacao/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

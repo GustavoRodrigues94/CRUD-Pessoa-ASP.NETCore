@@ -1656,6 +1656,19 @@
         "runtime": {
           "bin/placeholder/CRUDPessoa.Core.dll": {}
         }
+      },
+      "CRUDPessoa.Email.Aplicacao/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CRUDPessoa.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CRUDPessoa.Email.Aplicacao.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPessoa.Email.Aplicacao.dll": {}
+        }
       }
     }
   },
@@ -6053,12 +6066,18 @@
       "type": "project",
       "path": "../CRUDPessoa.Core/CRUDPessoa.Core.csproj",
       "msbuildProject": "../CRUDPessoa.Core/CRUDPessoa.Core.csproj"
+    },
+    "CRUDPessoa.Email.Aplicacao/1.0.0": {
+      "type": "project",
+      "path": "../CRUDPessoa.Email.Aplicacao/CRUDPessoa.Email.Aplicacao.csproj",
+      "msbuildProject": "../CRUDPessoa.Email.Aplicacao/CRUDPessoa.Email.Aplicacao.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "CRUDPessoa.Cadastros.Aplicacao >= 1.0.0",
       "CRUDPessoa.Cadastros.Infra >= 1.0.0",
+      "CRUDPessoa.Email.Aplicacao >= 1.0.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.7",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.7",
@@ -6100,6 +6119,9 @@
             },
             "C:\\Users\\Gustavo\\source\\repos\\CRUDPessoa\\CRUDPessoa.Cadastros.Infra\\CRUDPessoa.Cadastros.Infra.csproj": {
               "projectPath": "C:\\Users\\Gustavo\\source\\repos\\CRUDPessoa\\CRUDPessoa.Cadastros.Infra\\CRUDPessoa.Cadastros.Infra.csproj"
+            },
+            "C:\\Users\\Gustavo\\source\\repos\\CRUDPessoa\\CRUDPessoa.Email.Aplicacao\\CRUDPessoa.Email.Aplicacao.csproj": {
+              "projectPath": "C:\\Users\\Gustavo\\source\\repos\\CRUDPessoa\\CRUDPessoa.Email.Aplicacao\\CRUDPessoa.Email.Aplicacao.csproj"
             }
           }
         }

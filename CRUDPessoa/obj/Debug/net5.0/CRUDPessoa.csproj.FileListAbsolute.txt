@@ -71,3 +71,5 @@ C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa\obj\Debug\net5.0\CRUDPessoa.
 C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa\obj\Debug\net5.0\CRUDPessoa.genruntimeconfig.cache
 C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa\bin\Debug\net5.0\MediatR.dll
 C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa\bin\Debug\net5.0\CRUDPessoa.Email.Aplicacao.dll
+C:\Users\Gustavo\source\repos\CRUDPessoa\CRUDPessoa\bin\Debug\net5.0\CRUDPessoa.Email.Aplicacao.pdb

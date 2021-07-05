@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CRUDPessoa.Cadastros.Aplicacao\CRUDPessoa.Cadastros.Aplicacao.csproj" />
     <ProjectReference Include="..\CRUDPessoa.Cadastros.Infra\CRUDPessoa.Cadastros.Infra.csproj" />
+    <ProjectReference Include="..\CRUDPessoa.Email.Aplicacao\CRUDPessoa.Email.Aplicacao.csproj" />
   </ItemGroup>
 
 </Project>

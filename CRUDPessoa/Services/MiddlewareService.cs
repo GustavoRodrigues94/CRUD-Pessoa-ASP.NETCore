@@ -2,9 +2,11 @@
 using CRUDPessoa.Cadastros.Aplicacao.Consultas;
 using CRUDPessoa.Cadastros.Aplicacao.Manipuladores;
 using CRUDPessoa.Cadastros.Dominio.Repositorios;
-using CRUDPessoa.Cadastros.Infra.Contextos;
 using CRUDPessoa.Cadastros.Infra.Repositorios;
 using CRUDPessoa.Core.Mensagens.Eventos;
+using CRUDPessoa.Core.Mensagens.EventosIntegracao;
+using CRUDPessoa.Email.Aplicacao;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 
@@ -33,6 +35,8 @@ namespace CRUDPessoa.Services
             services.AddTransient<IPessoaRepositorio, PessoaRespositorio>();
             services.AddTransient<PessoaComandoManipulador, PessoaComandoManipulador>();
             services.AddTransient<IPessoaConsultas, PessoaConsultas>();
+
+            services.AddTransient<INotificationHandler<PessoaAdicionadaEvento>, EmailEventoManipulador>();
         }
     }
 }
